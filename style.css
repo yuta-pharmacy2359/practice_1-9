@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "メイリオ";
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.steps {
+  margin: 50px auto;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position: relative;
+}
+
+.step:last-child {
+  margin-right: 0;
+}
+
+.step-number {
+  color: #fff;
+  background-color: #ff9a4b;
+  display: inline-block;
+  position: absolute;
+}
+
+.step-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 0 10px;
+}
+
+.step-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 0 10px;
+}
+
+.step-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 0 10px;
+}
+
+.step-title {
+  margin: 15px 10px 5px 10px;
+}
+
+.step-content {
+  margin: 0 10px 10px 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
