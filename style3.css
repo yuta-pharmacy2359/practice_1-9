@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "メイリオ";
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+  position: relative;
+}
+
+.co-logo {
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.co-logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.fab {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.title {
+  width: 1290px;
+  margin: 50px auto 0 auto;
+}
+
+.steps {
+  margin: 20px auto 50px auto;
+  width: 1290px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 300px;
+  background-color: #eeeeee;
+  margin-right: 30px;
+  position: relative;
+}
+
+.step:last-child {
+  margin-right: 0;
+}
+
+.step-number {
+  color: #fff;
+  background-color: #ff9a4b;
+  display: inline-block;
+  position: absolute;
+}
+
+.step-image {
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  margin: 10px 10px 0 10px;
+}
+
+.image1 {
+  background-image: url(img/flow01.png);
+}
+
+.image2 {
+  background-image: url(img/flow02.png);
+}
+
+.image3 {
+  background-image: url(img/flow03.png);
+}
+
+.image4 {
+  background-image: url(img/flow04.png);
+}
+
+.step-title {
+  margin: 15px 10px 5px 10px;
+}
+
+.step-content {
+  margin: 0 10px 10px 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
